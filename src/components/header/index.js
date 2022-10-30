@@ -1,7 +1,7 @@
 import React from 'react'
-import Menu from 'components/Menu';
+/* import Menu from 'components/Menu';*/
 
-import { HeaderContainer,  Container} from './styles';
+import { HeaderContainer,  Container} from './styles'; 
 
 
 export default function Header() {
