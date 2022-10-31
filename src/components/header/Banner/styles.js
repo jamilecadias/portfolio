@@ -45,7 +45,7 @@ export const BannerContainer = styled.header`
 
     p{
         font-size: 1rem;
-        color: #EEEEEE
+        color: #EEEEEE;
         margin: 0;
         margin-bottom; 1rem;
     }
