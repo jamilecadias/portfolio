@@ -1,11 +1,13 @@
 import React from 'react'
-/* import Menu from 'components/Menu';*/
+import Menu from 'components/Menu';
 
-import { HeaderContainer,  Container} from './styles'; 
+import { HeaderContainer,  Container} from './styles';
+import Banner from './Banner';
 
 
 export default function Header() {
     return (
+        <>
         <HeaderContainer>
             <Container>
                 <div>
@@ -13,7 +15,9 @@ export default function Header() {
                 </div>
                 <Menu />
             </Container>
-        </HeaderContainer> 
+        </HeaderContainer>
+        <Banner /> 
+        </>
         
     )
 }
