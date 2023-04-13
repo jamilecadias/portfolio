@@ -1,9 +1,7 @@
 import React from 'react'
-import Menu from 'components/Menu';
-
 import { HeaderContainer,  Container} from './styles';
+import Menu from 'components/Menu';
 import Banner from './Banner';
-
 
 export default function Header() {
     return (
@@ -13,11 +11,10 @@ export default function Header() {
                 <div>
                     Logo
                 </div>
-                <Menu />
+                    <Menu/>
             </Container>
         </HeaderContainer>
-        <Banner /> 
-        </>
-        
+        <Banner/> 
+        </> 
     )
 }
