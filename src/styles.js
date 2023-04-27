@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         margin: 0;
         font-family: 'Roboto', sans-serif;
-        background-color: #2B2C2C;
+        background-color: #121212;;
     }
     *{
         box-sizing: border-box;

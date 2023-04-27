@@ -14,6 +14,7 @@ export const ContactContainer = styled.div`
   
   .title{
     margin-bottom: 14px;
+    color: #DFA70c;
   }
   
   .form{
@@ -26,7 +27,7 @@ export const ContactContainer = styled.div`
   .input{
     margin-bottom: 14px;
     height: 34px;
-    border-radius: 4px;
+    border-radius: 10px;
     border: 0;
     padding: 0 8px;
   }
@@ -38,20 +39,26 @@ export const ContactContainer = styled.div`
     padding: 8px;
     height: 94px;
     resize: none;
+    
   }
   
   .button{
     height: 34px;
-    border-radius: 4px;
+    border; solid 1px #EEEEEE;
+    border-radius: 10px;
     border: 0;
+    text-decoration: none;
     cursor: pointer;
-    background-color: #0fdbff;
-    font-size: 18px;
+    color: #EEEEEE;
+    background-color: #DFA70c;
+    font-size: 1rem;
     transition: background-color, transform 0.8s;
+    transition-duration: 1s;
   }
   
   .button:hover{
-    background-color: #0fe3ff;
-    transform: scale(1.01);
+    border: solid 1px #DFA70C;
+    background-color: transparent;
+    color: #DFA70c;
   }
   `

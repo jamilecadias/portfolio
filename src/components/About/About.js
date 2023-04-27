@@ -9,7 +9,7 @@ export default function About() {
             <img src={ profile } alt='profilePic'/>
             <div>
             <h2>About me</h2>
-            <p>Programadora criativa com 3 anos no mercado. Já trabalhei com Java, Python e C#, programando jogos educativos na Educa Studios. Sempre escrevendo código otimizado, consegui reduzir os bugs em 31%. Na sua empresa, buscarei oportunidades semelhantes para otimizar o seus códigos.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <button className='button1' type="button">Download CV</button>
             <button className='button2' type="button">Projects</button>  
             </div>        
