@@ -1,19 +1,59 @@
-import React from 'react'
-import { ProjectsContainer} from './styles'
-/* import profile from 'assets/img/profile1.jpg'; */
+import React from 'react';
+import { ProjectsContainer, ProjectCard, CardContainer, ProjectTitle, ProjectDescription, ButtonContainer, ProjectLink, ProjectImage, ProjectDetails, ProjectsHeader, ProjectsWrapper } from './styles';
 
-export default function Projects() {
-    return (
-        <ProjectsContainer>
-       {/*  <div className='container1'>
-            <img src={ profile } alt='profilePic'/>
-            <div>
-            <h2>About me</h2>
-            <p>Programadora criativa com 3 anos no mercado. Já trabalhei com Java, Python e C#, programando jogos educativos na Educa Studios. Sempre escrevendo código otimizado, consegui reduzir os bugs em 31%. Na sua empresa, buscarei oportunidades semelhantes para otimizar o seus códigos.</p>
-            <button className='button1' type="button">Download CV</button>
-            <button className='button2' type="button">Projects</button>  
-            </div>        
-        </div> */}
-        </ProjectsContainer>
-    )
-} 
+import project1Image from 'assets/img/project1.jpeg';
+import project2Image from 'assets/img/project2.png';
+import project3Image from 'assets/img/project3.png';
+
+const projects = [
+  {
+    title: 'Coffea Shop ecommerce',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    link: 'https://project1.com',
+    image: project1Image,
+  },
+  {
+    title: 'Course and student management webpage',
+    description: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    link: 'https://project2.com',
+    image: project2Image,
+  },
+  {
+    title: 'Collaborative storytelling page',
+    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+    link: 'https://project3.com',
+    image: project3Image,
+  },
+];
+
+const Projects = () => {
+  return (
+    <ProjectsContainer>
+      <ProjectsWrapper>
+        <ProjectsHeader>
+          <h1>Projects</h1>
+        </ProjectsHeader>
+        <CardContainer>
+          {projects.map((project, index) => (
+            <ProjectCard key={index}>
+              <ProjectImage src={project.image} alt={project.title} />
+              <ProjectDetails>
+                <ProjectTitle>{project.title}</ProjectTitle>
+                <ProjectDescription>{project.description}</ProjectDescription>
+                <ButtonContainer>
+                  <ProjectLink href={project.link} target="_blank">
+                    Github
+                  </ProjectLink>
+                  <ProjectLink href={project.link} target="_blank">
+                    View
+                  </ProjectLink>
+                  </ButtonContainer>
+              </ProjectDetails>
+            </ProjectCard>
+          ))}
+        </CardContainer>
+      </ProjectsWrapper>
+    </ProjectsContainer>
+  );
+};
+export default Projects;

@@ -44,7 +44,7 @@ export default function Skills() {
   
     return (
         <SkillsContainer>
-       <h2 className="title">Skills</h2>
+       <h1 className="title">Skills</h1>
        <div className='container'>
        <div className='imgContainer'>
        <img src={ Javascrip } alt='Javascript'/>

@@ -43,7 +43,7 @@ function getApiRepos(){
   return (
   <GithubContainer>
     <ContentGithub>
-        <h2>Github</h2>
+        <h1>Github</h1>
         <Itens>
             <Foto>
                 <img src={userGit.avatar_url} alt='Foto Github'/>

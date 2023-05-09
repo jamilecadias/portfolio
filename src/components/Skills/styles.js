@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
 export const SkillsContainer = styled.div`
-margin-left: 30px;
+width: 85%;
+margin: 0 auto;
 
 .title{
-    margin-bottom: 14px;
+    margin-bottom: 50px;
     color: #DFA70c;
     display: flex;
     justify-content: center;

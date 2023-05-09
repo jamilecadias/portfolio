@@ -12,6 +12,7 @@ export const DropdownButton = styled.button`
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
+  margin-right: 20px;
 
   DropdownButton::after {
     content: "";
@@ -34,7 +35,9 @@ export const DropdownMenu = styled.ul`
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 0;
-  margin: 0;
+ /*  margin: 0; */
+  margin-left: 57px;
+  margin-top: -15px;
   list-style: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   z-index: 1;

@@ -25,7 +25,7 @@ export const AboutContainer = styled.div`
         }
     
     }
-    h2{
+    h1{
         color: #E0A80D;
     }
     p{

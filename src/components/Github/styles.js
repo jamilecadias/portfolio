@@ -24,7 +24,7 @@ export const ContentGithub = styled.div`
     width: 100%;
     margin: 0 auto;
     
-    h2{
+    h1{
         text-align: center;
         color: #E0A80D;
     }
