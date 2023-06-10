@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.js": "//jamilecadias.github.io/portfolio/static/js/main.70740367.js",
+    "static/media/project4.png": "//jamilecadias.github.io/portfolio/static/media/project4.5f611d1b3410fbf95f70.png",
+    "static/media/project3.png": "//jamilecadias.github.io/portfolio/static/media/project3.4263c879ce926dacce6f.png",
+    "static/media/profile1.jpg": "//jamilecadias.github.io/portfolio/static/media/profile1.2f0a598bfdf5f1668689.jpg",
+    "static/media/project2.png": "//jamilecadias.github.io/portfolio/static/media/project2.8732c15fcb2eb7964f7d.png",
+    "static/media/bootstrap.png": "//jamilecadias.github.io/portfolio/static/media/bootstrap.1c75fcd3f4b05809d428.png",
+    "static/media/javascript.png": "//jamilecadias.github.io/portfolio/static/media/javascript.a1f7388a9dc1eba83b2c.png",
+    "static/media/project1.jpeg": "//jamilecadias.github.io/portfolio/static/media/project1.6e3ed67a1490ed348f33.jpeg",
+    "static/media/Github.jpeg": "//jamilecadias.github.io/portfolio/static/media/Github.8a07f85228721d99cc9d.jpeg",
+    "static/media/logo.png": "//jamilecadias.github.io/portfolio/static/media/logo.cd5983346e8f1b8347fe.png",
+    "static/media/sequelize.png": "//jamilecadias.github.io/portfolio/static/media/sequelize.c527cc5f3e85e7f39a4c.png",
+    "static/media/banner.jpeg": "//jamilecadias.github.io/portfolio/static/media/banner.42ac4691e2c8d0ec4878.jpeg",
+    "static/media/postman.jpg": "//jamilecadias.github.io/portfolio/static/media/postman.4903cef60525340385f7.jpg",
+    "static/media/angular.png": "//jamilecadias.github.io/portfolio/static/media/angular.30824e863c7cf34b9a35.png",
+    "static/media/react.jpeg": "//jamilecadias.github.io/portfolio/static/media/react.934c5b1af3d7491bb5bf.jpeg",
+    "static/media/python.png": "//jamilecadias.github.io/portfolio/static/media/python.d92e7fea6ee84ad0a37a.png",
+    "static/media/django.jpg": "//jamilecadias.github.io/portfolio/static/media/django.0d5b457db79b98dde8e2.jpg",
+    "static/media/softskills.jpeg": "//jamilecadias.github.io/portfolio/static/media/softskills.9f33ec80b4d48d811b5c.jpeg",
+    "static/media/wordpress.jpeg": "//jamilecadias.github.io/portfolio/static/media/wordpress.31622dabbf169aa5e6b3.jpeg",
+    "static/media/css.jpeg": "//jamilecadias.github.io/portfolio/static/media/css.0a50bba4eaeaca6a1261.jpeg",
+    "static/media/node.webp": "//jamilecadias.github.io/portfolio/static/media/node.d3ed9e9eba918614f33d.webp",
+    "static/media/agile.jpeg": "//jamilecadias.github.io/portfolio/static/media/agile.bf9045ca421fa1ccf3ce.jpeg",
+    "static/media/mysql.jpg": "//jamilecadias.github.io/portfolio/static/media/mysql.3e36083677750b04162c.jpg",
+    "index.html": "//jamilecadias.github.io/portfolio/index.html",
+    "main.70740367.js.map": "//jamilecadias.github.io/portfolio/static/js/main.70740367.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.70740367.js"
+  ]
+}
