@@ -5,12 +5,12 @@ export default function Menu() {
     return (
         <ContainerMenu>
             <ul>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Skills</a></li>
-                <li><a>GitHub</a></li>
-                <li><a>Contato</a></li>                        
+                <li><a href="#about">About</a></li>
+                <li><a  href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#github">GitHub</a></li>
+                <li><a href="#languages">Lenguages</a></li>
+                <li><a href="#contact">Contato</a></li>                        
             </ul>
         </ContainerMenu>
     )

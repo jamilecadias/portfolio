@@ -43,7 +43,7 @@ export default function Skills() {
 
   
     return (
-        <SkillsContainer>
+        <SkillsContainer id="skills">
        <h1 className="title">Skills</h1>
        <div className='container'>
        <div className='imgContainer'>
@@ -160,7 +160,6 @@ export default function Skills() {
         </Content>
       </Modal> 
        </div>
-
 
 
 

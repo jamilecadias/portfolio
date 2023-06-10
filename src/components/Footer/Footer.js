@@ -11,20 +11,30 @@ export default function Footer() {
     <IconsContainer> 
             <ul className='social-list'>
                 <li>
-                    <FaFacebook/>
-                </li>
-                <li>
+                <a href='https://www.instagram.com/jamiledev/' target='_blank'>
                     <FaInstagram/>
+                    </a>
                 </li>
                 <li>
+                <a href='https://www.linkedin.com/in/jamilecadias/' target='_blank'>
                     <FaLinkedin/>
+                    </a>
                 </li>
                 <li>
+                <a href='https://twitter.com/Jamilecadias' target='_blank'>
                     <FaTwitter/>
+                    </a>
                 </li>
                 <li>
+                <a href='https://github.com/jamilecadias'target='_blank'>
                     <FaGithub/>
-                </li>                           
+                    </a>
+                </li>  
+                <li>
+                <a href='https://www.facebook.com/milycard'target='_blank'>
+                    <FaFacebook/>
+                    </a>
+                </li>                         
             </ul>
     </IconsContainer> 
     <NoteContainer> 

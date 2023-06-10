@@ -25,6 +25,15 @@ export const IconsContainer = styled.div`
         cursor: pointer;
     }
 
+    a{
+        color: #DFA70c;
+
+        &:hover{
+            color: #FFFFFF;
+    
+        }
+    }
+
 
 `
 export const NoteContainer = styled.div`
