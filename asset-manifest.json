@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "//jamilecadias.github.io/portfolio/static/js/main.70740367.js",
+    "main.js": "//jamilecadias.github.io/portfolio/static/js/main.3328e7ff.js",
     "static/media/project4.png": "//jamilecadias.github.io/portfolio/static/media/project4.5f611d1b3410fbf95f70.png",
     "static/media/project3.png": "//jamilecadias.github.io/portfolio/static/media/project3.4263c879ce926dacce6f.png",
     "static/media/profile1.jpg": "//jamilecadias.github.io/portfolio/static/media/profile1.2f0a598bfdf5f1668689.jpg",
@@ -24,9 +24,9 @@
     "static/media/agile.jpeg": "//jamilecadias.github.io/portfolio/static/media/agile.bf9045ca421fa1ccf3ce.jpeg",
     "static/media/mysql.jpg": "//jamilecadias.github.io/portfolio/static/media/mysql.3e36083677750b04162c.jpg",
     "index.html": "//jamilecadias.github.io/portfolio/index.html",
-    "main.70740367.js.map": "//jamilecadias.github.io/portfolio/static/js/main.70740367.js.map"
+    "main.3328e7ff.js.map": "//jamilecadias.github.io/portfolio/static/js/main.3328e7ff.js.map"
   },
   "entrypoints": [
-    "static/js/main.70740367.js"
+    "static/js/main.3328e7ff.js"
   ]
 }
