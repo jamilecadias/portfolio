@@ -25,7 +25,6 @@ const projects = [
     link: 'https://github.com/jamilecadias/proyecto_python',
     image: project3Image,
   },
-
   {
     title: 'Conexão Brasil ',
     description: 'Dashboard to manage users of a language course with a CRUD system in Node.js, using APIs.',
@@ -55,7 +54,7 @@ const Projects = () => {
                   <ProjectLink href={project.link} target="_blank">
                     View
                   </ProjectLink>
-                  </ButtonContainer>
+                </ButtonContainer>
               </ProjectDetails>
             </ProjectCard>
           ))}
@@ -64,4 +63,5 @@ const Projects = () => {
     </ProjectsContainer>
   );
 };
+
 export default Projects;

@@ -10,6 +10,7 @@ export default function Menu() {
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#github">GitHub</a></li>
                 <li><a href="#languages">Lenguages</a></li>
+                <li><a href="#likes">Likes</a></li>
                 <li><a href="#contact">Contato</a></li>                        
             </ul>
         </ContainerMenu>

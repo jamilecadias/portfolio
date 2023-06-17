@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiChevronDown } from 'react-icons/fi';
 import PropTypes from 'prop-types';
 import {
   DropdownContainer,       // Importing styled components for the dropdown container, button, menu and menu item
@@ -18,7 +19,7 @@ const Dropdown = ({
   return (
     <DropdownContainer>  
       <DropdownButton onClick={handleDropdownClick}>  
-        {isOpen ? 'Close' : 'Download CV'}  
+      Download CV<FiChevronDown /> 
       </DropdownButton>
       {isOpen && (   // If the dropdown menu is open, render the menu component
         <DropdownMenu onMouseLeave={handleDropdownLeave}>  

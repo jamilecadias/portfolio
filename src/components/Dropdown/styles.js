@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const DropdownContainer = styled.div`
   position: relative;
+  
 `;
 
 export const DropdownButton = styled.button`
@@ -23,6 +24,14 @@ export const DropdownButton = styled.button`
     border-width: 6px 6px 0 6px;
     border-style: solid;
     border-color: #fff transparent transparent transparent;
+
+    display: flex;
+    align-items: center; /* Alinha o ícone verticalmente no centro do botão */
+
+    svg {
+      margin-left: 5px;
+      vertical-align: middle;
+    }
   
 `;
 

@@ -22,7 +22,6 @@ export const ProjectsHeader = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
-
   }
 `;
 
@@ -32,15 +31,13 @@ export const CardContainer = styled.div`
   justify-content: space-between;
 `;
 
-
 export const ProjectCard = styled.div`
-  width: 300px;
-  height: 300px;  
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   background-color: rgba(238, 238, 238, 0.9);
-  height: 100%; /* adicionado */
 `;
 
 export const ProjectImage = styled.img`
@@ -51,7 +48,6 @@ export const ProjectImage = styled.img`
 
 export const ProjectDetails = styled.div`
   padding: 20px;
-  height: 100%; /* adicionado */
 `;
 
 export const ProjectTitle = styled.h3`
@@ -65,15 +61,13 @@ export const ProjectDescription = styled.p`
 `;
 
 export const ButtonContainer = styled.div`
-  width: 100%;
   display: flex;
-  text-align: center; 
+  text-align: center;
   margin-top: 1rem;
 `;
 
 export const ProjectLink = styled.a`
-  max-width: 150px;
-  width: 100%;
+  flex: 1;
   border: solid 1px #eeeeee;
   display: inline-block;
   align-items: center;
