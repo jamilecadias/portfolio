@@ -4,6 +4,7 @@ import About from "components/About/About";
 import Skills from "components/Skills/Skills";
 import Projects from "components/Projects/Projects";
 import Github from "components/Github/Github";
+import Likes from "components/Likes/Likes";
 import Contact from "components/Contact/Contact";
 import Footer from "components/Footer/Footer";
 
@@ -16,6 +17,7 @@ function App() {
    <Skills/>
    <Projects/>
    <Github/>
+   <Likes/>
    <Contact/> 
    <Footer/> 
    </>

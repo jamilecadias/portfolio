@@ -14,7 +14,7 @@ export default function Footer() {
                 <a href='https://www.instagram.com/jamiledev/' target='_blank' rel="noreferrer">
                     <FaInstagram/>
                     </a>
-                </li>npm run deploynpm run deploy
+                </li>
                 <li>
                 <a href='https://www.linkedin.com/in/jamilecadias/' target='_blank' rel="noreferrer">
                     <FaLinkedin/>

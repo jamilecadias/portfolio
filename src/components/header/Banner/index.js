@@ -30,7 +30,7 @@ export default function Banner() {
         <div>
             <h2>{typedText}</h2>
             <h1>Full Stack developer</h1>
-            <p>Loren impsum</p>
+            <p>Software Engineering Student</p>
             <button type="button">Download CV</button>         
         </div>
         </BannerContainer>
