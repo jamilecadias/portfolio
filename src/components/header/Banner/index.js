@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { BannerContainer} from './styles'
 
+
 export default function Banner() {
     const [typedText, setTypedText] = useState('');
 

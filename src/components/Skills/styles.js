@@ -14,6 +14,7 @@ margin: 0 auto;
   .container{
     display: flex;
     flex-wrap: wrap;
+    gap: 30px;
   }
   
   img{

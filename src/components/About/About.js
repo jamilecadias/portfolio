@@ -50,7 +50,7 @@ export default function About() {
         <div>
           <h1>About me</h1>
           <p>Hi, nice to meet you! 
-I'm a Software Engineering student and Full Stack Web Developer. I have been learning more and more about this area and developing projects to reinforce the knowledge I have learned. Before discovering my passion for programming, I majored in literature and did a master's in educational processes mediated by technologies. I am always learning new skills and I love new challenges. I am always praised for being creative, dedicated, and disciplined.</p>
+I'm a Software Engineering student and Full Stack Web Developer. I have been learning more and more about this area and developing projects to reinforce the knowledge I have acquired. Before discovering my passion for programming, I majored in literature and did a master's in educational processes mediated by technologies. I am always learning new skills and I love new challenges. I am always praised for being creative, dedicated, and disciplined.</p>
           <Dropdown
             isOpen={isDropdownOpen} // passes the open/closed state of the dropdown to the Dropdown component
             handleDropdownClick={handleDropdownClick} // passes the handleDropdownClick callback function to the Dropdown component

@@ -17,7 +17,8 @@ export const IconsContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 40px;
+  margin-top: 20px;
 `;
 
 export const IconWrapper = styled.div`
@@ -33,7 +34,11 @@ export const IconLabel = styled.span`
   margin-top: 5px;
   text-align: center;
   white-space: nowrap;
-  color: #e0a80d;
+  color: #121212;
+
+  :hover {
+    color: #e0a80d; /* Defina a cor que desejar para destacar o nome */
+  }
 `;
 
 export const CustomIcon = styled.span`

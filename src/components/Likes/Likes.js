@@ -1,138 +1,84 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { IconContext } from 'react-icons';
-import {
-  FaPlane,
-  FaBook,
-  FaGlobe,
-  FaBookOpen,
-  FaBiking,
-  FaUtensils,
-  FaTree,
-  FaTrophy,
-  FaMugHot
-} from 'react-icons/fa';
-import {
-  LikesContainer,
-  LikesTitle,
-  IconsContainer,
-  IconWrapper,
-  IconLabel,
-  CustomIcon
-} from './styles';
+import { FaPlane, FaBook, FaGlobe, FaBookOpen, FaBiking, FaUtensils, FaTree, FaTrophy, FaMugHot } from 'react-icons/fa';
+import { LikesContainer, LikesTitle, IconsContainer, IconWrapper, IconLabel, CustomIcon } from './styles';
 
 const Likes = () => {
-  const [hoveredIcon, setHoveredIcon] = useState(null);
-
-  const handleIconHover = (iconName) => {
-    setHoveredIcon(iconName);
-  };
-
-  const handleIconLeave = () => {
-    setHoveredIcon(null);
-  };
-
   return (
     <LikesContainer>
       <LikesTitle>Likes</LikesTitle>
       <IconsContainer>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Travel')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaPlane />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Travel' && <IconLabel>Travel</IconLabel>}
+          <IconLabel>Travel</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Studies')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaBook />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Studies' && <IconLabel>Studies</IconLabel>}
+          <IconLabel>Studies</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Languages')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaGlobe />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Languages' && <IconLabel>Languages</IconLabel>}
+          <IconLabel>Languages</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Reading')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaBookOpen />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Reading' && <IconLabel>Reading</IconLabel>}
+          <IconLabel>Reading</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Sports')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaBiking />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Sports' && <IconLabel>Sports</IconLabel>}
+          <IconLabel>Sports</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Cooking')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaUtensils />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Cooking' && <IconLabel>Cooking</IconLabel>}
+          <IconLabel>Cooking</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Nature')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaTree />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Nature' && <IconLabel>Nature</IconLabel>}
+          <IconLabel>Nature</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Challenges')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaTrophy />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Challenges' && <IconLabel>Challenges</IconLabel>}
+          <IconLabel>Challenges</IconLabel>
         </IconWrapper>
-        <IconWrapper
-          onMouseEnter={() => handleIconHover('Coffee')}
-          onMouseLeave={handleIconLeave}
-        >
+        <IconWrapper>
           <IconContext.Provider value={{ size: '40px' }}>
             <CustomIcon>
               <FaMugHot />
             </CustomIcon>
           </IconContext.Provider>
-          {hoveredIcon === 'Coffee' && <IconLabel>Coffee</IconLabel>}
+          <IconLabel>Coffee</IconLabel>
         </IconWrapper>
       </IconsContainer>
     </LikesContainer>
@@ -140,3 +86,4 @@ const Likes = () => {
 };
 
 export default Likes;
+
