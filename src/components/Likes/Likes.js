@@ -5,7 +5,7 @@ import { LikesContainer, LikesTitle, IconsContainer, IconWrapper, IconLabel, Cus
 
 const Likes = () => {
   return (
-    <LikesContainer>
+    <LikesContainer id="likes">
       <LikesTitle>Likes</LikesTitle>
       <IconsContainer>
         <IconWrapper>

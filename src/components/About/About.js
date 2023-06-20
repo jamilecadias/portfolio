@@ -14,13 +14,13 @@ export default function About() {
   useEffect(() => {
     switch (selectedLanguage) {
       case 'English':
-        setPdfUrl('/pdfs/english.pdf');
+        setPdfUrl('/pdf/Jamile_Cardoso_Dias_EN_CV.pdf');
         break;
       case 'Spanish':
-        setPdfUrl('/pdfs/spanish.pdf');
+        setPdfUrl('/pdf/Jamile_Cardoso_Dias_SP_CV.pdf');
         break;
       case 'Portuguese':
-        setPdfUrl('/pdfs/portuguese.pdf');
+        setPdfUrl('/pdf/Jamile_Cardoso_Dias_PT_CV.pdf');
         break;
       default:
         setPdfUrl('');

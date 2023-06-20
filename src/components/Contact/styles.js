@@ -13,7 +13,7 @@ export const ContactContainer = styled.div`
   }
   
   .title{
-    margin-bottom: 14px;
+    margin-bottom: 30px;
     color: #DFA70c;
   }
   

@@ -15,7 +15,11 @@ const Dropdown = ({
   handleLanguageClick,      // Function prop to handle selecting a language from the dropdown menu
 }) => {
   const languages = ['English', 'Spanish', 'Portuguese'];  // Array of available languages to display in the dropdown menu
-
+  
+  const handleProjectsClick = () => {
+    // Redirecionar para a página de projetos
+    window.location.href = '#projects';
+  };
   return (
     <DropdownContainer>  
       <DropdownButton onClick={handleDropdownClick}>  
@@ -33,7 +37,9 @@ const Dropdown = ({
           ))}
         </DropdownMenu>
       )}
-      <button className='button2' type="button">Projects</button> 
+     <button className="button2" type="button" onClick={handleProjectsClick}>
+        Projects
+      </button>
     </DropdownContainer>
   );
 };
