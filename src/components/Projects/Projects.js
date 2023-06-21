@@ -10,7 +10,7 @@ const projects = [
   {
     title: 'Coffea Shop ecommerce',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    link: 'https://github.com/jamilecadias/ecommerce_coffea_shop',
+    link: 'https://github.com/jamilecadias/ecommerce_coffeaShop',
     image: project1Image,
   },
   {
