@@ -299,9 +299,9 @@ export default function Skills() {
 
 {/* AGILE METHODOLOGY */}
 <div className='imgContainer'>
-  <img src={agile} alt='Agile methodology' />
+  <img id="agile" src={agile} alt='Agile methodology' />
   <SkillsButton onClick={() => changeModalStatel15(!modalState15)}>
-    Agile methodology
+    Agile
   </SkillsButton>
   <Modal state={modalState15} changeState={changeModalStatel15}>
     <Content>

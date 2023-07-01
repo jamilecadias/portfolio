@@ -4,6 +4,7 @@ export const SkillsContainer = styled.div`
 width: 85%;
 margin: 0 auto;
 
+
 .title{
     margin-bottom: 50px;
     color: #DFA70c;
@@ -28,6 +29,41 @@ margin: 0 auto;
     margin: 10px;
     justify-content: center;
   }
+
+  /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+
+
+    .title{
+      margin-bottom: 20px;
+      color: #DFA70c;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      gap: 5px;
+    }
+    
+    img{
+      width: 50px;
+      height: 50px; 
+      margin-left: 10px;
+    }
+  
+    .imgContainer{
+      margin: 10px;
+      
+    }
+
+    
+  /* Estilos para dispositivos Tablet (768px a 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 10px;
+
+    
   `
 
 
@@ -52,7 +88,39 @@ margin: 0 auto;
         color: #DFA70C;
         border: solid 1px #EEEEEE;
         transition-duration: 1s;
-    }`
+    }
+    /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    min-width: 80px;
+   
+    background-color: transparent;
+    border-radius: 42px;
+    font-size: 9px;
+    padding: 10px 15px;
+    margin; 0 auto;
+    margin-bottom; 1rem;
+    margin-top: 2rem;
+    transition-duration: 1s;
+    cursor: pointer;
+
+    &:hover{
+        color: #DFA70C;
+        border: solid 1px #EEEEEE;
+        transition-duration: 1s;
+    }
+    
+  /* Estilos para dispositivos Tablet (768px a 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    padding: 10px;
+
+    
+    
+    
+    
+    
+    `
+
+    
 
   
 export const Content = styled.div`
