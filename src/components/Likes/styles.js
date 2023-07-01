@@ -4,7 +4,7 @@ export const LikesContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 `;
 
 export const LikesTitle = styled.h2`

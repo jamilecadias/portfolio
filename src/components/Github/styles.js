@@ -7,7 +7,7 @@ export const GithubContainer = styled.div`
     max-width:1280px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
     padding: 20px 15 px;
     display: flex;
     justify-content: space-between;

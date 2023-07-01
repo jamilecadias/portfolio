@@ -14,7 +14,7 @@ export const AboutContainer = styled.div`
   .container1 {
     display: flex;
   }
-  ç
+  
     img {
       max-width: 250px;
       border: solid 4px #ffffff;

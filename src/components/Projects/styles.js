@@ -5,8 +5,8 @@ export const ProjectsContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  margin-top: 50px;
-  margin-bottom: 150px;
+  margin-top: 100px;
+  margin-bottom: 130px;
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -30,10 +30,17 @@ export const CardContainer = styled.div`
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;  
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+    padding: 0 20px;
+   
+  }
 `;
 
 export const ProjectCard = styled.div`
-  width: calc(33.33% - 20px);
+  max-width: 400px;
+  min-width: 50px;
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
