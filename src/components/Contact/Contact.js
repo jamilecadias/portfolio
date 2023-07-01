@@ -43,14 +43,14 @@ export default function Contact() {
   return (
     <ContactContainer id="contact"> 
       <div className="container">
-        <h1 className="title">Contato</h1>
+        <h1 className="title">Contact</h1>
 
         {/* Form to collect user input */}
         <form className="form" onSubmit={sendEmail}>
           <input 
             className="input"
             type="text"
-            placeholder="Digite seu nome"
+            placeholder="Type your name"
             onChange={(e) => setName(e.target.value)}
             value={name}
           />
@@ -58,19 +58,19 @@ export default function Contact() {
           <input 
             className="input"
             type="text"
-            placeholder="Digite seu email"
+            placeholder="Type your email"
             onChange={(e) => setEmail(e.target.value)}
             value={email}
           />
 
           <textarea 
             className="textarea"
-            placeholder="Digite sua mensagem..."
+            placeholder="Type your message..."
             onChange={(e) => setMessage(e.target.value)}
             value={message}
           />
 
-          <input className="button" type="submit" value="Enviar" />
+          <input className="button" type="submit" value="Send" />
         </form>
       </div>
     </ContactContainer> 

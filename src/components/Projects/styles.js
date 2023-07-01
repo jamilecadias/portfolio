@@ -28,7 +28,8 @@ export const ProjectsHeader = styled.div`
 export const CardContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;  
 `;
 
 export const ProjectCard = styled.div`
@@ -87,5 +88,20 @@ export const ProjectLink = styled.a`
     border: solid 1px #dfa70c;
     background-color: transparent;
     color: #dfa70c;
+  }
+
+  @media (max-width: 767px) {
+    /* Estilos para dispositivos móveis */
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para tablets */
+   
+  }
+  
+  @media (min-width: 1024px) {
+    /* Estilos para desktops */
+   
   }
 `;

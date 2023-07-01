@@ -13,13 +13,8 @@ export const AboutContainer = styled.div`
 
   .container1 {
     display: flex;
-    
   }
-
-  div {
-    padding-left: 15px;
-    padding-right: 15px;
-
+  ç
     img {
       max-width: 250px;
       border: solid 4px #ffffff;
