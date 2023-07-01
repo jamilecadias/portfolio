@@ -5,6 +5,11 @@ export const LikesContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-bottom: 65px;
+
+  /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    margin-bottom: 0;
+
 `;
 
 export const LikesTitle = styled.h2`

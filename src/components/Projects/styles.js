@@ -7,6 +7,13 @@ export const ProjectsContainer = styled.div`
   height: 100%;
   margin-top: 100px;
   margin-bottom: 130px;
+
+  /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
 `;
 
 export const ProjectsWrapper = styled.div`
@@ -31,9 +38,9 @@ export const CardContainer = styled.div`
   justify-content: center;
   gap: 30px;  
 
-  @media (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos para tablets */
-    padding: 0 20px;
+  /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    padding: 0 25px;
    
   }
 `;
@@ -95,20 +102,5 @@ export const ProjectLink = styled.a`
     border: solid 1px #dfa70c;
     background-color: transparent;
     color: #dfa70c;
-  }
-
-  @media (max-width: 767px) {
-    /* Estilos para dispositivos móveis */
-   
-  }
-  
-  @media (min-width: 768px) and (max-width: 1023px) {
-    /* Estilos para tablets */
-   
-  }
-  
-  @media (min-width: 1024px) {
-    /* Estilos para desktops */
-   
   }
 `;

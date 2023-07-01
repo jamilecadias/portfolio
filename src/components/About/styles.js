@@ -66,6 +66,8 @@ export const AboutContainer = styled.div`
 
   /* Estilos para dispositivos Mobile (375px a 767px) */
   @media (min-width: 375px) and (max-width: 767px) {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
     flex-direction: column;
     align-items: center;
 

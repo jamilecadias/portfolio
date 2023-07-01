@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import bgGithub from 'assets/img/Github.jpeg'
 
 export const GithubContainer = styled.div`
-   
     max-width:1280px;
     width: 100%;
     margin: 0 auto;
@@ -17,6 +16,11 @@ export const GithubContainer = styled.div`
     background-position: center;
     background-repeat: no-repeat;
     padding: 2rem;
+
+    /* Estilos para dispositivos Mobile (375px a 767px) */
+  @media (min-width: 375px) and (max-width: 767px) {
+    margin-bottom: 2rem;
+
     `;
 
 export const ContentGithub = styled.div`

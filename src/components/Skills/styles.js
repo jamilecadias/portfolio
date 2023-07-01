@@ -36,7 +36,6 @@ margin: 0 auto;
     flex-direction: column;
     align-items: center;
 
-
     .title{
       margin-bottom: 20px;
     }
@@ -78,8 +77,8 @@ margin: 0 auto;
     /* Estilos para dispositivos Mobile (375px a 767px) */
   @media (min-width: 375px) and (max-width: 767px) {
     min-width: 80px;
-    font-size: 9px;
-    padding: 10px 15px;
+    font-size: 10px;
+    padding: 7px 15px;
     margin-top: 5px;
 
   /* Estilos para dispositivos Tablet (768px a 1023px) */

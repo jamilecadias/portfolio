@@ -53,9 +53,6 @@ export const BannerContainer = styled.header`
     button{
         min-width: 150px;
         border: solid 1px #DFA70C;
-       /*  display: flex;
-        align-items: center;
-        justify-content: center; */
         color: #EEEEEE;
         background-color: transparent;
         border-radius: 42px;
@@ -73,6 +70,13 @@ export const BannerContainer = styled.header`
             transition-duration: 1s;
         }
     }
+
+    @media (max-width: 767px) {
+        /* Estilos para dispositivos móveis */
+       h1{
+        font-size: 1.8rem;
+       }
+      }
 
  
 `;
