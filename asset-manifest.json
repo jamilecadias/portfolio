@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.79657541.js",
+    "main.js": "/portfolio/static/js/main.0decb877.js",
     "static/media/project4.png": "/portfolio/static/media/project4.5f611d1b3410fbf95f70.png",
     "static/media/project3.png": "/portfolio/static/media/project3.4263c879ce926dacce6f.png",
+    "static/media/project5.png": "/portfolio/static/media/project5.61c3ccc312467104a6cb.png",
     "static/media/profile1.jpg": "/portfolio/static/media/profile1.2f0a598bfdf5f1668689.jpg",
     "static/media/project2.png": "/portfolio/static/media/project2.8732c15fcb2eb7964f7d.png",
     "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.1c75fcd3f4b05809d428.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.a1f7388a9dc1eba83b2c.png",
+    "static/media/project6.jpeg": "/portfolio/static/media/project6.ba5b5b4f1f1ff49241f4.jpeg",
     "static/media/project1.jpeg": "/portfolio/static/media/project1.6e3ed67a1490ed348f33.jpeg",
     "static/media/Github.jpeg": "/portfolio/static/media/Github.8a07f85228721d99cc9d.jpeg",
     "static/media/logo.png": "/portfolio/static/media/logo.cd5983346e8f1b8347fe.png",
@@ -25,9 +27,9 @@
     "static/media/agile.jpeg": "/portfolio/static/media/agile.bf9045ca421fa1ccf3ce.jpeg",
     "static/media/mysql.jpg": "/portfolio/static/media/mysql.3e36083677750b04162c.jpg",
     "index.html": "/portfolio/index.html",
-    "main.79657541.js.map": "/portfolio/static/js/main.79657541.js.map"
+    "main.0decb877.js.map": "/portfolio/static/js/main.0decb877.js.map"
   },
   "entrypoints": [
-    "static/js/main.79657541.js"
+    "static/js/main.0decb877.js"
   ]
 }
