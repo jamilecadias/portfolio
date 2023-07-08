@@ -31,6 +31,18 @@ const projects = [
     link: 'https://github.com/jamilecadias/proyecto_python',
     image: project4Image,
   },
+  {
+    title: 'Conexão Brasil ',
+    description: 'Landing page and user self-management dashboard for a language course, with a CRUD system in Node.js, using APIs and database in Mysql. Final individual project for the full stack course.',
+    link: 'https://github.com/jamilecadias/proyecto_python',
+    image: project4Image,
+  },
+  {
+    title: 'Mercado Liebre',
+    description: 'Landing page and user self-management dashboard for a language course, with a CRUD system in Node.js, using APIs and database in Mysql. Final individual project for the full stack course.',
+    link: 'https://github.com/jamilecadias/proyecto_python',
+    image: project4Image,
+  },
 ];
 
 const Projects = () => {
