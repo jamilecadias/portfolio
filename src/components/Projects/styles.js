@@ -17,7 +17,7 @@ export const ProjectsContainer = styled.div`
 `;
 
 export const ProjectsWrapper = styled.div`
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
 `;
 

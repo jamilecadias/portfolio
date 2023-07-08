@@ -5,6 +5,8 @@ import project1Image from 'assets/img/project1.jpeg';
 import project2Image from 'assets/img/project2.png';
 import project3Image from 'assets/img/project3.png';
 import project4Image from 'assets/img/project4.png';
+import project5Image from 'assets/img/project5.png'
+import project6Image from 'assets/img/project6.jpeg'
 
 const projects = [
   {
@@ -32,16 +34,16 @@ const projects = [
     image: project4Image,
   },
   {
-    title: 'Conexão Brasil ',
-    description: 'Landing page and user self-management dashboard for a language course, with a CRUD system in Node.js, using APIs and database in Mysql. Final individual project for the full stack course.',
-    link: 'https://github.com/jamilecadias/proyecto_python',
-    image: project4Image,
+    title: 'Landing page InConcert ',
+    description: 'Landing page designed with Html, CSS and Javascript, applying responsive design and Bootstrap.  Technical test for selection process.',
+    link: 'https://github.com/jamilecadias/landing-page',
+    image: project5Image,
   },
   {
     title: 'Mercado Liebre',
-    description: 'Landing page and user self-management dashboard for a language course, with a CRUD system in Node.js, using APIs and database in Mysql. Final individual project for the full stack course.',
-    link: 'https://github.com/jamilecadias/proyecto_python',
-    image: project4Image,
+    description: 'E-commerce website in Node.js with register and login forms, inspired by Mercado Libre. First work done individually in the Full Stack course, with code review practice.',
+    link: 'https://github.com/jamilecadias/mercado-liebre',
+    image: project6Image,
   },
 ];
 
