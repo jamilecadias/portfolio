@@ -13,36 +13,42 @@ const projects = [
     title: 'Coffea Shop E-commerce',
     description: 'E-commerce of a specialty coffee shop with CRUD-based user and product management system and Mysql database. Final project in a full stack course team.',
     link: 'https://github.com/jamilecadias/ecommerce_coffeaShop',
+    weblink: '',
     image: project1Image,
   },
   {
     title: 'Espacio Zen',
     description: 'Webpage to manage the registration of students to different Yoga courses, with CRUD system of users and courses. Individual final project in Angular for Angular course.',
     link: 'https://github.com/jamilecadias/yoga-angular-project',
+    weblink: '',
     image: project2Image,
   },
   {
     title: 'Collaborative storytelling Blog',
     description: 'Collaborative storytelling publishing blog made in Python and Django. Final individual project for Python course.',
     link: 'https://github.com/jamilecadias/proyecto_python',
+    weblink: '',
     image: project3Image,
   },
   {
     title: 'Conexão Brasil ',
     description: 'Landing page and user self-management dashboard for a language course, with a CRUD system in Node.js, using APIs and database in Mysql. Final individual project for the full stack course.',
     link: 'https://github.com/jamilecadias/proyecto_python',
+    weblink: '',
     image: project4Image,
   },
   {
     title: 'Landing page InConcert ',
     description: 'Landing page designed with Html, CSS and Javascript, applying responsive design and Bootstrap.  Technical test for selection process.',
     link: 'https://github.com/jamilecadias/landing-page',
+    weblink: 'https://jamilecadias.github.io/landing-page/',
     image: project5Image,
   },
   {
     title: 'Mercado Liebre',
     description: 'E-commerce website in Node.js with register and login forms, inspired by Mercado Libre. First work done individually in the Full Stack course, with code review practice.',
-    link: 'https://github.com/jamilecadias/mercado-liebre',
+    link: 'https://jamilecadias.github.io/mercado-liebre/',
+    weblink: '',
     image: project6Image,
   },
 ];
@@ -65,7 +71,7 @@ const Projects = () => {
                   <ProjectLink href={project.link} target="_blank">
                     Github
                   </ProjectLink>
-                  <ProjectLink href={project.link} target="_blank">
+                  <ProjectLink href={project.weblink} target="_blank">
                     View
                   </ProjectLink>
                 </ButtonContainer>
