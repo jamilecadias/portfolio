@@ -279,7 +279,7 @@ export default function Skills() {
 {/* POSTMAN */}
 <div className='imgContainer'>
   <img src={Postman} alt='Postman' />
-  <SkillsButton onClick={() => changeModalStatel13(!modalState14)}>
+  <SkillsButton onClick={() => changeModalStatel14(!modalState14)}>
     Postman
   </SkillsButton>
   <Modal state={modalState14} changeState={changeModalStatel14}>
