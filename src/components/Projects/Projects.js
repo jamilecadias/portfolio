@@ -47,7 +47,7 @@ const projects = [
   {
     title: 'Mercado Liebre',
     description: 'E-commerce website in Node.js with register and login forms, inspired by Mercado Libre. First work done individually in the Full Stack course, with code review practice.',
-    link: 'https://jamilecadias.github.io/mercado-liebre/',
+    link: 'https://mercado-liebre-node-qw25.onrender.com/',
     weblink: '',
     image: project6Image,
   },
